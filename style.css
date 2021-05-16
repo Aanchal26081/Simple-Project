@@ -1,0 +1,90 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+:root{
+    --main-bg-color: #2874f8;
+}
+@import url('https://fonts.googleapis.com/css2?family=KoHo:ital,wght@1,300&display=swap');
+header{
+    background-color:var(--main-bg-color);
+    /* background-color: black; */
+}
+nav{
+    display: flex;
+}
+nav ul{
+    height: 59px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+nav ul li{
+    list-style: none;
+    padding: 0 23px;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-family: 'KoHo', sans-serif;
+
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo img{
+    width: 88px;
+    padding: 0 23px;
+}
+nav ul li a:hover{
+    font-weight: bold;
+}
+.search-bar{
+    display: flex;
+    align-items: center;
+}
+.search-bar input{
+    width: 30vw;
+    height: 27px;
+    border-radius: 7px;
+    margin: 0 12px 0 56px;
+}
+.search-bar btn{
+    font-family: 'KoHo', sans-serif'KoHo', sans-serif ;
+}
+.container{
+    min-height: calc(100vh - 59px - 12vh) ;
+}
+.slider{
+    margin: auto;
+    width: 80vw;
+    margin: 12px auto;
+    overflow: hidden;
+}
+.card h2{
+    font-family: 'KoHo', sans-serif'KoHo', sans-serif ;
+}
+.card{
+    max-width: 91vw;
+    margin: auto;
+    font-family: 'KoHo', sans-serif'KoHo', sans-serif ;
+}
+.cards{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    overflow: hidden;
+}
+.card-item{
+    display: inline-flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 15px;
+}
+footer{
+    background-color: var(--main-bg-color);
+    color: beige;
+    height: 12vh;
+    font-family: 'KoHo', sans-serif;
+}
